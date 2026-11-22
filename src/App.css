@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #222;
+  color: white;
+}
+
+nav h2 {
+  color: #00bcd4;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+section {
+  padding: 70px 10%;
+  text-align: center;
+}
+
+#home {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home h1 {
+  font-size: 45px;
+  color: #00bcd4;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  background-color: #00bcd4;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #008fa3;
+}
+
+#skills p {
+  display: inline-block;
+  background-color: white;
+  padding: 15px 25px;
+  margin: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #ccc;
+}
+
+#projects h3 {
+  color: #00bcd4;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
